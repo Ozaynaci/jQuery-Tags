@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <title>jQuery words plugin</title>
+        <!-- CSS -->
+	</head>
+	<body>
+        <div id='wordRectangle'><ul>
+		<input type="text" id="inputWords" value="Papaya,Raspberry">
+        </ul></div>
+
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="js/action.js"></script>
+        <!-- SCRIPTS -->
+	</body>
+
+        <script>
+                
+                $(function() {
+                    $("#inputWords").Addwords({
+                      //  maxWords: 2
+                        divColour: "white",
+                        border: "2px #ebebeb solid"
+                    });
+                });
+
+        </script>
+</html>

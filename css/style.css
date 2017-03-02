@@ -1,0 +1,91 @@
+body
+{
+    background: #eee;
+}
+
+h1
+{
+    font-family: Arial, serif;
+    font-size: 15px;
+}
+.wordRectangle
+{
+    overflow: hidden;
+
+    width: 30%;
+    margin: 20% 35%;
+    padding: 5px;
+
+    border-radius: 3px;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    float: left;
+}
+.delete
+{
+    color: #fff;
+}
+.delete:hover
+{
+    color: #fff;
+}
+#words
+{
+    font-family: Arial, serif;
+    font-size: 11px;
+    line-height: 13px;
+
+    margin: 3px 0 3px 5px;
+    padding: 3px 5px 4px 8px;
+
+    list-style: none;
+
+    cursor: pointer;
+
+    color: #fff;
+    border-radius: 3px;
+    background-color: rgb(33, 97, 169);
+    background-clip: padding-box;
+}
+li a
+{
+    display: inline-block;
+
+    padding: 3px;
+
+    text-decoration: none;
+
+    color: rgb(51, 51, 51);
+}
+input
+{
+    display: none;
+}
+.tags-input
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    white-space: nowrap;
+}
+li input
+{
+    font-size: 11px;
+
+    display: block;
+
+    width: 100px;
+    height: auto;
+    margin: 8px;
+
+    border: none;
+    outline: none;
+}
